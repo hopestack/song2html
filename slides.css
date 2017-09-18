@@ -1,0 +1,55 @@
+/*
+Currently used slides use the following sizes
+Title: 32pt
+Title-Header: 18pt
+Lyric: 36pt
+Meaning: 28pt
+
+*/
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.slide {
+  position: absolute;
+  border-bottom-style: dotted;
+  border-width: thin;
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+  transition: opacity 0.2s ease-in;
+}
+
+.title-slide {
+  font-size: 32pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-header {
+  font-size: 18pt;
+  text-align: center;
+}
+
+/*
+Padding top values
+Sunday: 250px
+Life Change: 20px
+*/
+
+.lyrics {
+  padding-top: 20px;
+  padding-left: 145px;
+  font-size: 36pt;
+}
+
+.meaning {
+  padding-top: 50px;
+  padding-left: 300px;
+  font-size: 28pt;
+}
